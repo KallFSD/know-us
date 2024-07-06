@@ -138,7 +138,7 @@
         padding: 2px;
     }
 
-    .text a {
+    .text .links {
         position: relative;
         background-color: #162938;
         padding: 5px;
@@ -151,7 +151,7 @@
         transition: 0.3s;
     }
 
-    .text a:hover {
+    .text .links:hover {
         background-color: #555;
     }
 
@@ -163,35 +163,6 @@
         left: 5%;
         border: 2px solid #162938;
         border-radius: 100px;
-    }
-
-    .content .next_page_btn {
-        position: absolute;
-        width: 8%;
-        height: 8%;
-        top: 85%;
-        right: 5%;
-        padding: 2% 6%;
-        font-size: large;
-        font-weight: 500;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: transparent;
-        color: #fff;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        outline: none;
-        cursor: pointer;
-        font-size: 1.1em;
-        font-weight: 500;
-        margin-left: 40px;
-        transition: .5s;
-    }
-
-    .next_page_btn:hover {
-        background: #fff;
-        color: #000;
     }
 
 
