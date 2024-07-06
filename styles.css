@@ -117,7 +117,7 @@
         position: absolute;
         width: 90%;
         height: 90%;
-        top: 15%;
+        top: 7.5%;
         left: 13%;
         margin: 0;
         padding: 10px;
@@ -138,12 +138,35 @@
         padding: 2px;
     }
 
-    .text .links {
-        position: relative;
+    .text #instagram {
+        position: absolute;
         background-color: #162938;
         padding: 5px;
         margin: 5px;
+        width: 10%;
+        height: 30px;
+        left: 15%;
+        font-size: 1.1em;
         text-decoration: none;
+        border: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    
+    .text #github {
+        position: absolute;
+        background-color: #162938;
+        padding: 5px;
+        margin: 5px;
+        width: 10%;
+        height: 30px;
+        left: 30%;
+        font-size: 1.1em;
+        text-decoration: none;
+        border: none;
         color: #fff;
         display: flex;
         align-items: center;
@@ -151,7 +174,33 @@
         transition: 0.3s;
     }
 
-    .text .links:hover {
+    .text #linkedin {
+        position: absolute;
+        background-color: #162938;
+        padding: 5px;
+        margin: 5px;
+        width: 10%;
+        height: 30px;
+        left: 45%;
+        font-size: 1.1em;
+        text-decoration: none;
+        border: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+
+    .text #instagram:hover {
+        background-color: #555;
+    }
+
+    .text #github:hover {
+        background-color: #555;
+    }
+
+    .text #linkedin:hover {
         background-color: #555;
     }
 
